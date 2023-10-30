@@ -1,0 +1,12 @@
+<div>
+    <label>Project Name:</label>
+    <input [(ngModel)]="projectName" />
+  </div>
+  <div>
+    <label>Country:</label>
+    <select [(ngModel)]="selectedCountry">
+      <option *ngFor="let country of countries" [value]="country">{{ country }}</option>
+    </select>
+  </div>
+  <button (click)="addProject()">Add Project</button>
+  
