@@ -1,5 +1,3 @@
-Certainly! Below is a README file template for your .NET Web API and Angular frontend project, as per the provided instructions.
-
 # CountryFinderTestProject
 
 ## Description
